@@ -33,7 +33,7 @@ No relevant notes for steps 4 & 5
 
 
 Additional notes for "forest-plots-code" code:
-- Two different datasets were used for each plot
+- Three different datasets were used for each plot
 
 First plot (representing meta-analysis and subgroup analysis): 
 - The dataset for the first plot was structured so that each study was listed twice (one row with allocation "Meta-analysis" and one row with allocation "Subgroup analysis"), except for McKetin et al. (2021) since the subgroup analysis was examing all studies except this one
