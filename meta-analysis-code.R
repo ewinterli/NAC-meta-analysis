@@ -133,4 +133,4 @@ regtest(result_meta)
 regtest(result_mcketin_SA)
 
 ############# STEP 6: FIGURES ##############
-#Separate code: "forest-plots"
+#Separate code: "forest-plots-code"
