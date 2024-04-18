@@ -7,8 +7,6 @@ The R code was created to conduct all analyses related to the manuscript (i.e., 
 
 Code uses metafor package. For more info, see: Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of statistical software, 36(3), 1-48.
 
-If referencing code, cite the link: __
-
 Additional notes for the different steps of the "meta-analysis-code" code which were not included as notes within the code itself:
 Step 1:
 - Effect sizes (ES) were calculated using https://lbecker.uccs.edu
