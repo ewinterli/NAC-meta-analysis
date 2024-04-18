@@ -15,8 +15,9 @@ Step 2:
 - You can conduct same analyses by entering ES, SE, and N manually like we did here or by loading in your own dataset with these values
 
 Step 3:
-- RRs are calculated here and then converted to logRRs in the "forest plots" code; note that these are calculated so that values below 0 indicate lower risk of AEs for NAC group
+- RRs are calculated here and then converted to logRRs in the "forest-plots-code" code; note that these are calculated so that values below 0 indicate lower risk of AEs for NAC group
 - Dataset used here was set up so that each study had its own row, set up as:
+
 Study ID       |  ae_pos_p  |  ae_neg_p  |  total1  |  ae_pos_e  |  ae_neg_e  |  total2 |    se     | ES
 - ae_pos_p: # of AE events in the placebo group
 - ae_neg_p: total1 - ae_pos_p
