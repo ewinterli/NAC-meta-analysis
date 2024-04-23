@@ -32,7 +32,7 @@ Note that for Back (2021) and (2023), the N for total1 and total2 reflect the N 
 
 No relevant notes for steps 4 & 5
 
-##**Additional notes for "forest-plots-code" code:**
+## **Additional notes for "forest-plots-code" code:**
 - Three different datasets were used for each plot
 
 First plot (representing meta-analysis and subgroup analysis): 
