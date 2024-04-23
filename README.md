@@ -7,7 +7,8 @@ The R code was created to conduct all analyses related to the manuscript (i.e., 
 
 Code uses metafor package. For more info, see: Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of statistical software, 36(3), 1-48.
 
-Additional notes for the different steps of the "meta-analysis-code" code which were not included as notes within the code itself:
+## **Additional notes for the different steps of the "meta-analysis-code" code which were not included as notes within the code itself:**
+
 Step 1:
 - Effect sizes (ES) were calculated using https://lbecker.uccs.edu
 
@@ -31,8 +32,7 @@ Note that for Back (2021) and (2023), the N for total1 and total2 reflect the N 
 
 No relevant notes for steps 4 & 5
 
-
-Additional notes for "forest-plots-code" code:
+##**Additional notes for "forest-plots-code" code:**
 - Three different datasets were used for each plot
 
 First plot (representing meta-analysis and subgroup analysis): 
