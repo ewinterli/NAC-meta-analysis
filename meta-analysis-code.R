@@ -132,5 +132,23 @@ regtest(result_meta)
 #Then without McKetin
 regtest(result_mcketin_SA)
 
-############# STEP 6: FIGURES ##############
+########### STEP 6: EGGER'S TEST ###########
+#Load in study characteristics sheet
+meta_regression <- read_excel("/Users/work/Desktop/Meta-analysis/Relevant spreadsheets/meta-regression.xlsx")
+###### FIRST WITH MCKETIN
+#Make craving measures into factor variables
+meta_regression$craving_measure <- as.factor(meta_regression$craving_measure)
+#Run model
+model1 <- rma(yi = ES, sei = se, data = meta_regression, mods = ~ 1 + craving_measure)
+summary(model1)
+######## SAME META-REGRESSIONS WITHOUT MCKETIN
+meta_nomcketin <- meta_regression
+meta_nomcketin <- meta_nomcketin[-1, ]
+#Make craving measures into factor variables
+meta_nomcketin$craving_measure <- as.factor(meta_nomcketin$craving_measure)
+#Run model
+model1b <- rma(yi = ES, sei = se, data = meta_nomcketin, mods = ~ 1 + craving_measure)
+summary(model1b)
+
+############# STEP 7: FIGURES ##############
 #Separate code: "forest-plots-code"
