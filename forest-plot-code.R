@@ -100,8 +100,8 @@ text(-16, c(7, 14), pos=4, c("3.2 No aggregation", "3.1 Aggregation"))
 par(op)
 res.r4 <- rma(ES, sei = se, subset=(alloc=="agg"), data=agg_fp)
 res.a4 <- rma(ES, sei = se, subset=(alloc=="noagg"), data=agg_fp)
-addpoly(res.r4, row=0.7, mlab=mlabfun("RE Model for No aggregation", res.r4))
-addpoly(res.a4, row=8.7, mlab=mlabfun("RE Model for Aggregation", res.a4))
+addpoly(res.a4, row=0.7, mlab=mlabfun("RE Model for No aggregation", res.a4))
+addpoly(res.r4, row=8.7, mlab=mlabfun("RE Model for Aggregation", res.r4))
 res2 <- rma(ES, sei = se, mods = ~ alloc, data=agg_fp)
 text(-16, -2, pos=4, cex=0.75, bquote(paste("Test for Subgroup Differences: ",
                                             "df = ", .(res2$p - 1), ", ",
