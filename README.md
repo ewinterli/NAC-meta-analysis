@@ -1,7 +1,8 @@
 # NAC-meta-analysis
-Code for the (in review) publication: N-acetylcysteine as a treatment for substance use cravings: A meta-analysis (Winterlind et al., 2024)
+Code for the publication: 
+Winterlind, E. L., Malone, S. G., Setzer, M. R., Murphy, M. A., Saunders, D., & Gray, J. C. (2024). N‐acetylcysteine as a treatment for substance use cravings: A meta‐analysis. Addiction biology, 29(11), e70001.
 
-GitHub page last updated August 2024
+GitHub page last updated June 2025
 
 The R code was created to conduct all analyses related to the manuscript (i.e., meta-analysis, subgroup analysis, forest plots, etc.)
 
